@@ -1,0 +1,9 @@
+logging:
+  level.org.springframework.cloud: DEBUG
+spring:
+  application:
+    name: sleuth-service-tracking
+  sleuth:
+    enabled: true
+  zipkin:
+    enabled: false
